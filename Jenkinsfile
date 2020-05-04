@@ -15,7 +15,7 @@ pipeline{
      
       steps{
 
-         echp "mvn build"
+         echo "mvn build"
 }
 
       }

@@ -10,6 +10,26 @@ pipeline{
             }
             
         }
+
+    stage ('build'){
+     
+      steps{
+
+         echp "mvn build"
+}
+
+      }
+    
+   stage('deploy'){
+
+        steps{
+      echo 'deploy'
+}
+
+}
+
+
+
    }     
         
     }
